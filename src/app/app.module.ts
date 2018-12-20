@@ -5,6 +5,7 @@ import { MDBBootstrapModule } from 'angular-bootstrap-md';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NavigationModule } from './navigation/navigation.module';
+import { HomeModule } from './home/home.module';
 
 @NgModule({
   declarations: [
@@ -14,6 +15,7 @@ import { NavigationModule } from './navigation/navigation.module';
     BrowserModule,
     AppRoutingModule,
     NavigationModule,
+    HomeModule,
     MDBBootstrapModule.forRoot(),
   ],
   providers: [],
